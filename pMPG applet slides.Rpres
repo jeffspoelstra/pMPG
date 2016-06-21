@@ -1,0 +1,48 @@
+pMPG: An Applet for Predicting Vehicle MPG
+========================================================
+author: Jeff Spoelstra
+date: 06/21/2016
+width: 1280
+height: 1024
+
+```{r, echo=FALSE}
+require(shiny)
+```
+
+Introduction
+========================================================
+
+- pMPG is an applet for predicting vehicle miles-per-gallon (MPG) performance
+- Written using R (`r R.Version()$version.string`), RStudio (version 0.99.902), and the shiny applet development package (version `r packageVersion("shiny")`)
+- Calculates a theoretical prediction model based on a sample of vehicles
+- Predicts MPG for a specific vehicle based on number of engine cylinders, transmission type, and gross vehicle weight
+- Available at http://jeffspoelstra.shinyapps.io/pMPG-applet/
+
+Data Source
+========================================================
+
+- The source of the data used to create the theoretical model for MPG predictions is the mtcars data set available in the R datasets package (partially shown below).
+
+```{r, echo=FALSE}
+head(structure(mtcars))
+```
+
+Using pMPG
+========================================================
+
+![pMPG sidebar image](sidebar.png)
+
+***
+
+- Enter specific vehicle characteristics using the input mechanisms in the left-hand sidebar.
+
+
+Using pMPG
+========================================================
+
+- Predicted MPG will appear as a green horizontal line on the theoretical MPG chart in the main applet window.
+- Prediction will change real-time as the vehicle characteristics are changed.
+
+***
+![pMPG main image](main.png)
+
