@@ -16,7 +16,8 @@ Introduction
 - Written using R (`r R.Version()$version.string`), RStudio (version 0.99.902), and the shiny applet development package (version `r packageVersion("shiny")`)
 - Calculates a theoretical prediction model based on a sample of vehicles
 - Predicts MPG for a specific vehicle based on number of engine cylinders, transmission type, and gross vehicle weight
-- Available at http://jeffspoelstra.shinyapps.io/pMPG-applet/
+- Live applet available at http://jeffspoelstra.shinyapps.io/pMPG-applet/
+- Source available at https://github.com/jeffspoelstra/pMPG.git
 
 Data Source
 ========================================================
