@@ -15,5 +15,6 @@ This applet was created for the JHU Data Products class. It serves no purpose ot
 * __pMPG applet slides-rpubs.html__ published R Presenter slideset in HTML form (published on Rpubs)
 * __main.png__ graphic used in slideset
 * __sidebar.png__ graphic used in slideset
+* __rsconnect__ folder of RStudio control files for shinyapps and Rpubs hosting
 
 Documentation for how to use this applet may be found in the R Presenter slideset.
