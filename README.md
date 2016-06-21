@@ -17,4 +17,4 @@ This applet was created for the JHU Data Products class. It serves no purpose ot
 * __sidebar.png__ graphic used in slideset
 * __rsconnect__ folder of RStudio control files for shinyapps and Rpubs hosting
 
-Documentation for how to use this applet may be found in the R Presenter slideset.
+Documentation for how to use this applet may be found in the R Presenter slideset. It is available for hosted viewing at http://rpubs.com/jeffspoelstra/pMPG.
